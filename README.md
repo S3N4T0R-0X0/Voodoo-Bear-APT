@@ -1,6 +1,6 @@
-# Voodoo Bear APT Adversary Simulation
+# Voodoo Bear APT44 Adversary Simulation
 
-This is a simulation of attack by (Voodoo Bear) APT group targeting entities in Eastern Europe the attack campaign was active as early as mid-2022,
+This is a simulation of attack by (Voodoo Bear) APT44 group targeting entities in Eastern Europe the attack campaign was active as early as mid-2022,
 The attack chain starts with backdoor which is a DLL targets both 32-bit and 64-bit Windows environments, It gathers information and fingerprints the user and the machine then sends the information to the attackers-controlled C2, The backdoor uses a multi-threaded approach, and leverages event objects for data synchronization and signaling across threads. I relied on withsecure tofigure out the details to make this simulation: https://labs.withsecure.com/publications/kapeka
 
 ![imageedit_2_8201736021](https://github.com/S3N4T0R-0X0/Voodoo-Bear-APT/assets/121706460/d8af69c6-b3f6-4870-a8d9-6dcf222c7564)
